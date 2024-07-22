@@ -19,9 +19,12 @@ const Header = () => {
                 <img src={logo} alt="logo" className=' md:w-full'/>
             </div>
           </Link>
+          <div>
           <h1 className='text-[10px] md:block max-w-[900px] text-center  lg:text-3xl text-[#2e3192] font-semibold'>
-          Toshkent shahar Madaniyat boshqarmasi tasarrufidagi Mirzo Ulug’bek tumani 2-sonli bolalar musiqa va san’at maktabi
+          Toshkent shahar Madaniyat Boshqarmasi tasarrufidagi 9-son Bolalar musiqa va san'at maktabi.
           </h1>
+           <p className='text-center  text-[#2e3192] font-semibold mt-4 text-[7px] md:text-xl'>Uchtepa tumani Taqachi mahallasi Ko'kcha darvoza ko'chasi 627 A uy.</p>
+          </div>
           <div className='w-12 md:w-16 lg:w-20'>
             <Link to={'/'}>
               <div className='max-w-[60px]'>

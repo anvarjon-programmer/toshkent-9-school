@@ -1,14 +1,40 @@
 
-import swagger1 from '../assets/swagger/swaggeer1.jpg'
-import swagger2 from '../assets/swagger/swaggeer2.jpg'
-import swagger3 from '../assets/swagger/swaggeer3.jpg'
-import swagger4 from '../assets/swagger/swaggeer4.jpg'
-import swagger5 from '../assets/swagger/swaggeer5.jpg'
-import swagger6 from '../assets/swagger/swaggeer6.jpg'
-import swagger7 from '../assets/swagger/swaggeer7.jpg'
-import swagger8 from '../assets/swagger/swaggeer8.jpg'
-import swagger9 from '../assets/swagger/swaggeer9.jpg'
-import swagger10 from '../assets/swagger/swaggeer10.jpg'
+import swagger1 from '../assets/school-2/gal34.jpg'
+import swagger2 from '../assets/school-2/gal33.jpg'
+import swagger3 from '../assets/school-2/gal31.jpg'
+import swagger4 from '../assets/school-2/gal30.jpg'
+import swagger5 from '../assets/school-2/gal29.jpg'
+import swagger6 from '../assets/school-2/gal28.jpg'
+import swagger7 from '../assets/school-2/gal27.jpg'
+import swagger8 from '../assets/school-2/gal26.jpg'
+import swagger9 from '../assets/school-2/gal25.jpg'
+import swagger10 from '../assets/school-2/gal24.jpg'
+
+////////////////////////////////////////////////////////////
+
+import gal1 from '../assets/school-2/gal1.jpg';
+import gal2 from '../assets/school-2/gal2.jpg';
+import gal3 from '../assets/school-2/gal3.jpg';
+import gal4 from '../assets/school-2/gal4.jpg';
+import gal5 from '../assets/school-2/gal5.jpg';
+import gal6 from '../assets/school-2/gal6.jpg';
+import gal7 from '../assets/school-2/gal7.jpg';
+import gal8 from '../assets/school-2/gal8.jpg';
+import gal9 from '../assets/school-2/gal9.jpg';
+import gal10 from '../assets/school-2/gal10.jpg';
+import gal11 from '../assets/school-2/gal11.jpg';
+import gal12 from '../assets/school-2/gal12.jpg';
+import gal13 from '../assets/school-2/gal13.jpg';
+import gal15 from '../assets/school-2/gal15.jpg';
+import gal16 from '../assets/school-2/gal16.jpg';
+import gal17 from '../assets/school-2/gal17.jpg';
+import gal18 from '../assets/school-2/gal18.jpg';
+import gal19 from '../assets/school-2/gal19.jpg';
+import gal20 from '../assets/school-2/gal20.jpg';
+import gal21 from '../assets/school-2/gal21.jpg';
+
+
+
 
 
 const swagger = [
@@ -215,40 +241,70 @@ export const farmon = [
 
 export const cartImg = [
     {
-        img:"http://localhost:3000/static/media/photo_2024-04-05_09-59-26.8467d3ec69410595da71.jpg",
-        title:`“Bo’zatov Fest 2024” tanlovi davom etmoqda.`
+        img:gal1,
     },
     {
-        img:"http://localhost:3000/static/media/photo_2024-04-24_16-05-17.1f6a4d858f578a5a4de9.jpg",
-        title:`2024-yil 24- aprel kuni Qashqadaryo viloyati Mirishkor tumani 19-son bolalar musiqa va sanat`
+        img:gal2,
     },
     {
-        img:"http://localhost:3000/static/media/photo_2024-05-10_16-14-53.5adbecabad2eb3424f8c.jpg",
-        title:`Qashqadaryo viloyati Oila va xotin-qizlar boshqarmasi Mirishkor tuman Oila va xotin-qizlar boʻlimi`
+        img:gal3,
     },
     {
-        img:"http://localhost:3000/static/media/photo_2024-04-09_15-29-31.5f1dfcc1944f8226684e.jpg",
-        title:`9-aprel – Amir Temur tavallud topgan kun!`
+        img:gal4,
     },
     {
-        img:"http://localhost:3000/static/media/photo_2024-04-24_16-05-17.1f6a4d858f578a5a4de9.jpg",
-        title:`Qashqadaryo viloyat Mirishkor tumani 19-son Bolalar musiqa va sanʼat maktabida dars mashgʻulotlari`
+        img:gal5,
     },
     {
-        img:"	http://localhost:3000/static/media/photo_2024-05-05_14-36-36.1b379dda80d94d3fb8c2.jpg",
-        title:`Mirishkor  Tuman 19 BMSM navruz Kurbonova`
+        img:gal6,
     },
     {
-        img:"	http://localhost:3000/static/media/photo_2024-05-05_14-36-36.1b379dda80d94d3fb8c2.jpg",
-        title:`Миришкор туман 19 БМСМ Навруза Курбанова.`
+        img:gal7,
     },
     {
-        img:"	http://localhost:3000/static/media/photo_2024-05-05_14-36-36.1b379dda80d94d3fb8c2.jpg",
-        title:`Миришкор туман 19 БМСМ Навруза Курбанова.`
-    },{
-        img:"	http://localhost:3000/static/media/photo_2024-05-05_14-36-36.1b379dda80d94d3fb8c2.jpg",
-        title:`Миришкор туман 19 БМСМ Навруза Курбанова.`
+        img:gal8,
     },
+    {
+        img:gal9,
+    },
+    {
+        img:gal10,
+    },
+    {
+        img:gal11,
+    },
+    {
+        img:gal12,
+    },
+    {
+        img:gal12,
+    },
+    {
+        img:gal13,
+    },
+    
+    {
+        img:gal15,
+    },
+    {
+        img:gal16,
+    },
+    {
+        img:gal17,
+    },
+    {
+        img:gal18,
+    },
+    {
+        img:gal19,
+    },
+    {
+        img:gal20,
+    },
+    {
+        img:gal21,
+    },
+
 
 
 

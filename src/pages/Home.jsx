@@ -87,7 +87,7 @@ const fortopianoPageNumbers = [...Array(fortopianoPageCount).keys()];
   return (
     <div className='w-full container pt-5 ttttt'>
       <div className='max-w-[1100px] m-auto'>
-        {/* <Slider {...settings} className='m-auto container'>
+        <Slider {...settings} className='m-auto container'>
           {
             swagger.map((item, index) => (
               <div key={index} className='md:max-w-[300px] h-[200px] px-2'>
@@ -95,7 +95,7 @@ const fortopianoPageNumbers = [...Array(fortopianoPageCount).keys()];
               </div>
             ))
           }
-        </Slider> */}
+        </Slider>
       </div>
         <h1 className='text-center text-3xl my-10'>Maktab Yangliklari</h1>
       <section className='px-5 flex justify-between gap-10'>
@@ -115,11 +115,13 @@ const fortopianoPageNumbers = [...Array(fortopianoPageCount).keys()];
           {
             currentPageData.map((item, index) => (
               
-<a href="#" class="flex flex-col items-center gap-5 bg-white border border-gray-200 rounded-lg shadow md:flex-row md: hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src={item.file || "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWz9tftw9qculFH1gxieWkxL6rbRk_hrXTSg&s"} alt=""/>
-    <div class="flex flex-col justify-between p-4 leading-normal">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{item.title}</h5>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{item.description.slice(0, 200)}</p>
+<a  key={index} href="#" className="flex flex-col items-center gap-5 bg-white border border-gray-200 rounded-lg shadow md:flex-row md:
+ hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src={item.file || 
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWz9tftw9qculFH1gxieWkxL6rbRk_hrXTSg&s"} alt=""/>
+    <div className="flex flex-col justify-between p-4 leading-normal">
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{item.title}</h5>
+        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{item.description.slice(0, 200)}</p>
     </div>
 </a>
 
@@ -148,17 +150,15 @@ const fortopianoPageNumbers = [...Array(fortopianoPageCount).keys()];
     {
       currentFortopianoData.map((item, index) => (
         <div key={index}>
-          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-[750px]">
-              <div className='h-[380px]'>
-                  <img className='rounded-t-lg h-full w-full object-cover' src={item.img} alt="" />
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-[650px]">
+              <div className=''>
+                  <img className='rounded-t-lg w-full h-[300px] object-cover' src={item.img} alt="" />
               </div>
               <div className="p-5">
-                      <h6 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white"> {item.name}</h6>
-                  <p className="mb-1  text-gray-700 dark:text-gray-400 font-bold"> <i className='font-extrabold'>Yo'nalishi: </i> {item.lavozim}</p>
+                      <h6 className="mb-2  font-bold tracking-tight text-gray-900 dark:text-white"> {item.name}</h6>
+                  <p className="mb-1  text-gray-700 dark:text-gray-400 font-bold"> <i className='font-extrabold'>Лавозими: </i> {item.lavozim}</p>
                   <p className="mb-1 font-bold mt-1 text-gray-700 dark:text-gray-400"> <i className='font-extrabold'>Ma’lumoti: </i>{item.malumoti}</p>
                   <p className="mb-1 font-bold mt-1 text-gray-700 dark:text-gray-400"> <i className='font-extrabold'>Taxsil olayotgan o’quv yurti: </i>{item.oquvYurt}</p>
-                  <p className="mb-1 font-bold mt-1 text-gray-700 dark:text-gray-400"> <i className='font-extrabold'>Mutaxassisligi</i>: {item.mutaxaslig}</p>
-                  <p className="mb-1 font-bold mt-1 text-gray-700 dark:text-gray-400">{item.ishJoy}</p>
               </div>
           </div>
         </div>
