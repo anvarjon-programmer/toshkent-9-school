@@ -1,59 +1,20 @@
-import React from 'react'
-import img1 from '../../assets/raxbarImg/raxbar1.jpg'
-import img2 from '../../assets/raxbarImg/rahbar2.jpg'
-import img3 from '../../assets/raxbarImg/rahbar3.jpg'
-import img4 from '../../assets/emp4.png'
+// import React from 'react'
+import img1 from '../../assets/hodimlar/img1.jpg'
+// import img2 from '../../assets/raxbarImg/rahbar2.jpg'
+// import img3 from '../../assets/raxbarImg/rahbar3.jpg'
+// import img4 from '../../assets/emp4.png'
 const MaktabRahbaryati = () => {
   return (
     <section className='bg-[#eee] mt-10'>
-      <div className='bg-white max-w-[1000px] pt-[50px] m-auto'>
-        <div className='p-10 md:flex items-center justify-between gap-8'>
-          <div className=''>
-           <img className='w-[300px] m-auto' src={img1} alt="" />
-          </div>
-          <div className='mt-7 md:mb-10'>
-            <h2 className='text-3xl font-bold text-center'>Adilova Sayyora Saypillayevna</h2>
-            <h3 className='text-2xl my-3 font-medium'>2-sonli bolalar musiqa va san’at maktabi direktori</h3>
-            <p className='text-xl text-center'>Telefon: +998 94 669 85-25</p>
-            <p className='text-xl my-1'>Qabul kunlari: Seshanba - 10:00 - 12:00</p>
-            <p className='text-xl'>Payshanba - 15:00 - 17:00</p>
-          </div>
-        </div>
-      </div>
-
-      <div className='bg-white max-w-[1000px] mt-10 m-auto'>
-        <div className='p-10 md:flex items-center justify-between gap-[40px]'>
-          <div className=''>
-           <img className='w-[470px]' src={img2} alt="" />
-          </div>
-          <div className='mt-7 md:mb-10'>
-            <h2 className='text-3xl font-bold'>Usmanova Nadira
- Mirzaxmatovna 
-</h2>
-            <h3 className='text-2xl my-3 font-medium'>2-sonli bolalar musiqa va san’at maktabi xo’jalik ishlari bo’yicha direktor o’rinbosari</h3>
-            <p className='text-xl'>Telefon: +998  95 082-14-02</p>
-            <p className='text-xl my-1'>Qabul kunlari: Seshanba - 10:00 - 12:00</p>
-            <p className='text-xl'>Payshanba - 15:00 - 17:00</p>
-          </div>
-        </div>
-      </div>
-
-      <div className='bg-white max-w-[1000px] mt-10 m-auto '>
-        <div className='p-10 md:flex items-center justify-between gap-8'>
-          <div className='md:max-w-[300px]'>
-           <img className='w-full' src={img3} alt="" />
-          </div>
-          <div className='mt-7 md:mb-10'>
-            <h2 className='text-3xl font-bold'>Xodjayeva Luiza 
-Adilovna 
-</h2>
-            <h3 className='text-2xl my-3 font-medium'>2-sonli bolalar musiqa va san’at maktabi bosh hisobchisi</h3>
-            <p className='text-xl'>Telefon: +998 90 934-69-05</p>
-            <p className='text-xl my-1'>Qabul kunlari: Chorshanba - 10:00 - 12:00</p>
-            <p className='text-xl'>Payshanba - 15:00 - 17:00</p>
-          </div>
-        </div>
-      </div>
+      <a  href="#" className="flex flex-col items-center gap-5 bg-white border border-gray-200 rounded-lg shadow md:flex-row md:
+ hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+    <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src={img1 || 
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWz9tftw9qculFH1gxieWkxL6rbRk_hrXTSg&s"} alt=""/>
+    <div className="flex flex-col justify-between p-4 leading-normal">
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Халметова Шахноза Бахтиёровна</h5>
+        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">(1995-1999) A.Қодирий номидаги Тошкент давлат маданият институти (кундузги) ҳаваскор хор жамоалари рахбари</p>
+    </div>
+</a>
 
       
     </section>

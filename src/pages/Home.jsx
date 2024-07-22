@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -145,27 +145,28 @@ const fortopianoPageNumbers = [...Array(fortopianoPageCount).keys()];
 
       <section className='px-4 mb-6'>
         <h1 className='text-center font-semibold mb-10 text-2xl md:text-4xl '>Faoliyat yutitayotgan Xodimlar</h1>
-  <div className='grid grid-cols md:grid-cols-2 lg:grid-cols-3 gap-[30px] xl:grid-cols-3
+
+  <div className='grid grid-cols md:grid-cols-2 lg:grid-cols-3 gap-[30px] xl:grid-cols-3 
       max-w-sm mx-auto md:max-w-none md:mx-0'>
     {
       currentFortopianoData.map((item, index) => (
         <div key={index}>
-          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-[650px]">
-              <div className=''>
-                  <img className='rounded-t-lg w-full h-[300px] object-cover' src={item.img} alt="" />
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-[650px] ">
+          <div className=''>
+                  <img className='rounded-t-lg h-[450px] w-full object-cover' src={item.img} alt="" />
               </div>
               <div className="p-5">
-                      <h6 className="mb-2  font-bold tracking-tight text-gray-900 dark:text-white"> {item.name}</h6>
-                  <p className="mb-1  text-gray-700 dark:text-gray-400 font-bold"> <i className='font-extrabold'>Лавозими: </i> {item.lavozim}</p>
-                  <p className="mb-1 font-bold mt-1 text-gray-700 dark:text-gray-400"> <i className='font-extrabold'>Ma’lumoti: </i>{item.malumoti}</p>
-                  <p className="mb-1 font-bold mt-1 text-gray-700 dark:text-gray-400"> <i className='font-extrabold'>Taxsil olayotgan o’quv yurti: </i>{item.oquvYurt}</p>
+                      <h6 className="mb-2  tracking-tight text-gray-900 dark:text-white"> {item.name}</h6>
+                  <p className="mt-3  text-gray-700 dark:text-gray-400 "><i className=''> Лавозими: </i> {item.lavozim}</p>
+                  <p className="mt-3   text-gray-700 dark:text-gray-400"> <i className=''>Маълумоти: </i>{item.malumoti}</p>
+                  <p className="mt-3 font-medium  text-gray-700 dark:text-gray-400"> <i className=''> илмий даражаси: </i>{item.oquvYurt}</p>
               </div>
           </div>
         </div>
       ))
     }
   </div>
-  <div className='pagination-container mt-6 md:mt-[20px] flex justify-center'>
+  <div className='pagination-container  mt-[35px] md: flex justify-center'>
     {fortopianoPageNumbers.map((number) => (
       <button
         key={number}

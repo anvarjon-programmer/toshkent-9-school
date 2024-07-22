@@ -103,10 +103,10 @@ export const jarayonLink = [
         title:"Mahorat Darsi",
         url:"https://docs.google.com/document/d/1_m5Ep1bzl7rDI5pOpzDJTmRoJebcAdCz/edit"
     },
-    {
-        title:"Faoliyat ko'rsatayotgan O'qtuvchilar",
-        url:"https://docs.google.com/document/d/1jCF9Djpg8sKdA4SYTjH8eL4HxKvXTtLf/edit"
-    },
+    // {
+    //     title:"Faoliyat ko'rsatayotgan O'qtuvchilar",
+    //     url:"https://docs.google.com/document/d/1jCF9Djpg8sKdA4SYTjH8eL4HxKvXTtLf/edit"
+    // },
     {
         title:"Bo'sh ish o'rinlari",
         url:"https://docs.google.com/document/d/17U4zcVeqQlId729BAZ7up15ztvozS55M/edit"

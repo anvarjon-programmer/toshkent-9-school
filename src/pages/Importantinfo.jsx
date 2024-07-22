@@ -1,6 +1,6 @@
 import React from 'react'
 import { bms } from '../services/swagger-img'
-import map from '../assets/map.jpg'
+// import map from '../assets/map.jpg'
 import { Link } from 'react-router-dom'
 
 const Importantinfo = () => {
@@ -11,7 +11,7 @@ const Importantinfo = () => {
       <ul className='max-w-[850px]'>
         {
           bms.map((item,index) =>(
-            <li className='text-sm px-4 md:text-xl m-auto max-w-[1000px] pt-3'>
+            <li className='text-sm px-4 md:text-xl m-auto max-w-[1000px] pt-3' key={index}>
               {item.title}
               <b>{item.addition}</b>
             </li>
@@ -35,7 +35,7 @@ const Importantinfo = () => {
 
     <section className='mt-10 container px-4'>
       <h2 className='text-center mb-6 md:text-3xl'>Ta’lim yo‘nalishlari</h2>
-    <table class="border-collapse border border-gray-400  m-auto">
+    <table className="border-collapse border border-gray-400  m-auto">
             <thead className='bg-[#268382]'>
                 <tr>
                     <th className="border border-gray-400 px-4 py-2">NN</th>
