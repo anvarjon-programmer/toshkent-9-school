@@ -7,7 +7,7 @@ const Festival = () => {
       <ol className='px-4'>
         {
           festivalData.map((item,index) =>(
-            <li className=' mt-3 md: text-xl'>
+            <li key={index} className=' mt-3 md: text-xl'>
               {item.title}
             </li>
           ))
@@ -18,4 +18,4 @@ const Festival = () => {
 }
 
 export default Festival
-// sdadas///yqyouiudadw
+// sdadas///yqyouiudadw11

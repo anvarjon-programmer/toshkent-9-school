@@ -12,7 +12,7 @@ import { fortopiano } from '../services/personnel';
 const Home = () => {
   const [data, setData] = useState([]);
   const [currentPage, setCurrentPage] = useState(0);
-  const itemsPerPage = 3;
+  const itemsPerPage = 4;
 
   const [currentFortopianoPage, setCurrentFortopianoPage] = useState(0);
    const fortopianoItemsPerPage = 6;
@@ -66,7 +66,7 @@ const fortopianoPageNumbers = [...Array(fortopianoPageCount).keys()];
   useEffect(() => {
     const fetchFroduct = async () => {
       try {
-        const { data } = await axios.get("https://parsingbot.pythonanywhere.com");
+        const { data } = await axios.get("https://parsingbot1.pythonanywhere.com/");
         setData(data);
         console.log(data);
       } catch (error) {
@@ -128,8 +128,8 @@ const fortopianoPageNumbers = [...Array(fortopianoPageCount).keys()];
 
             ))
           }
-      <div className='pagination-container md:mt-[200px]'>
-      {currentPage > 3 && (
+      <div className='pagination-container my-10'>
+      { (
           pageNumbers.map((number) => (
             <button
               key={number}
@@ -152,7 +152,7 @@ const fortopianoPageNumbers = [...Array(fortopianoPageCount).keys()];
     {
       currentFortopianoData.map((item, index) => (
         <div key={index}>
-          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-[650px] ">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-[73``0px] ">
           <div className=''>
                   <img className='rounded-t-lg h-[450px] w-full object-cover' src={item.img} alt="" />
               </div>
