@@ -24,12 +24,12 @@ const Importantinfo = () => {
         </b>
             </li>
 
-            <li className='text-sm px-4 md:text-xl m-auto max-w-[1000px] pt-3'>
+            {/* <li className='text-sm px-4 md:text-xl m-auto max-w-[1000px] pt-3'>
         Elektron pochta manzili:
         <b>
           <Link to='bmsm34tv@gmail.com'>  musiqamaktabi95@gmail.com</Link>
         </b>
-            </li>
+            </li> */}
       </ul>
     </section>
 

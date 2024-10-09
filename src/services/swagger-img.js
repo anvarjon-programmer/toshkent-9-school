@@ -75,17 +75,17 @@ export default swagger
 
 
 export const bms = [
-    {
-        title:'Ta’lim muassasasi tashkil etilgan yil:',
-        addition:'1956-yil'
-    },
+    // {
+    //     title:'Ta’lim muassasasi tashkil etilgan yil:',
+    //     addition:'1956-yil'
+    // },
     {
         title:'Ta’lim muassasasining to‘liq nomi:',
-        addition:'Toshkent shahar Madaniyat boshqarmasi tasarrufidagi Mirzo Ulug’bek tumani 2-sonli bolalar musiqa va san’at maktabi'
+        addition:"Toshkent shahar Madaniyat Boshqarmasi tasarrufidagi 9-son Bolalar musiqa va san'at maktabi."
     },
     {
         title:'Ta’lim muassasasining qisqartirilgan nomi:',
-        addition:' Mirzo Ulug’bek tumani 2-sonli BMSM'
+        addition:"9-son Bolalar musiqa va san'at maktabi."
     },
     {
         title:'Ta’lim muassasasining muassisi:',
