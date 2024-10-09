@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { FaTelegram } from "react-icons/fa";
+import { IoLogoInstagram } from "react-icons/io";
+import { FaYoutube } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -11,9 +14,9 @@ const Footer = () => {
             <li>
               <Link className='text-white' to={'/importantinfo'}>BMSM to‘g‘risida</Link>
             </li>
-            <li>
+            {/* <li>
               <Link className='text-white my-2' to={'/'}>Aloqa</Link>
-            </li>
+            </li> */}
             <li>
               <Link className='text-white' to={'/'}>Sayt xaritasi</Link>
             </li>
@@ -41,9 +44,32 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <p className='text-white text-xl mt-5'>© UNI PROJECT</p>
+       <div className='flex items-center justify-between'>
+       <div>
+       <p className='text-white text-xl mt-5'>© UNI PROJECT</p>
         <p className='text-white text-xl'>2022 Barcha huquqlar himoyalangan</p>
         <p className='text-white text-xl pb-5'>Veb-saytdagi ma'lumotlardan foydalanilganda, manbaga havola qilish majburiy</p>
+       </div>
+       <div>
+       
+       <div className="flex flex-col">
+       <Link to={''} className='text-white'>+998  71 247 26 75 </Link>
+       <Link to={''} className='text-white'>+998  97 431 55 99 </Link>
+       </div>
+       <div className='flex items-center gap-2 text-xl text-white mt-5'>
+        <Link to={'https://t.me//BMSM19'} className='text-xl'>
+        <FaTelegram/>
+        </Link>
+        <Link to={'https://www.instagram.com/'} className='text-xl'>
+        <IoLogoInstagram/>
+        </Link>
+        <Link to={''} className='text-xl'>
+        <FaYoutube/>
+        </Link>
+       </div>
+
+       </div>
+       </div>
       </div>
     </footer>
   )

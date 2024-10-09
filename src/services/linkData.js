@@ -36,38 +36,9 @@ export const bmsLink = [
         url: "/maktabRahbaryati"
     },
     {
-        title:' Maktab pedagog xodimlari ',
-        url:'https://docs.google.com/document/d/1fqwpEp-6IiQpcwW5nN7M0dl30st6glgM/edit' 
-    },
-    {
         title:'BMSM ustavi',
-        url:'https://docs.google.com/document/d/1J30gw2uQEZyw86VE7zF1tM-gvpfh_y12/edit'
+        url:'https://docs.google.com/document/d/1MeW1oScnwPfRSpdL2AkDMUrzpoP_uyHw/edit?usp=sharing&ouid=115793320638836892454&rtpof=true&sd=true'
     },
-    {
-        title:'Yuridik shaxsni davlat ro‘yxatidan o‘tkazish to‘g‘risida guvohnoma',
-        url:'https://zarkentbmsm.uz/PDFlar/34_BMSM_Guvohnoma.pdf'
-    },
-    // {
-    //     title:'Maktab strukturasi',
-    //     url:'/maktabStrakturasi'
-    // },
-    {
-        title:'Odob-axloq qoidalari',
-        url:'https://zarkentbmsm.uz/PDFlar/34_BMSM_odob_axloq_qoidalari.pdf'
-    },
-    {
-        title:'Lokal hujjatlar',
-        url:'/lokalHujat'
-    },
-    {
-        title:'Jamoa shartnomasi',
-        url:'https://zarkentbmsm.uz/PDFlar/34_BMSM_jamoa_shartnomasi.pdf'
-    },
-    {
-        title:'Malaka tavsiflari',
-        url:'https://zarkentbmsm.uz/PDFlar/34_BMSM_strukturasi.pdf'
-    },
-
     
 ]
 
@@ -77,32 +48,20 @@ export const bmsLink = [
 export const jarayonLink = [
     {
         title:"BMSM o'quv ish rejasi",
-        url: "https://zarkentbmsm.uz/PDFlar/34_BMSM_Ish_rejasi.pdf"
-    },
-    {
-        title:' Ochiq darslar jadvali ',
-        url:'https://zarkentbmsm.uz/PDFlar/34_BMSM_Ochiq_darslar.pdf' 
-    },
-    {
-        title:"O'quv dasturlari",
-        url:'/oquvDasturi'
-    },
-    {
-        title:"Davlat ta'lim talablari",
-        url:'https://zarkentbmsm.uz/PDFlar/Davlat_talim_talabi.pdf'
+        url: "https://docs.google.com/document/d/1XiDl2D2w_1Y35uOkB7bmydS2ZMZ608Eh/edit"
     },
     {
         title:'Tanlovlar, festivallar',
         url:'/festival'
     },
-    {
-        title:'Viloyat BMSMlar direktorlar Kengashi ish rejasi',
-        url:'https://zarkentbmsm.uz/PDFlar/Direktorlar_kengashi_ish_rejasi.pdf'
-    },
-    {
-        title:"Mahorat Darsi",
-        url:"https://docs.google.com/document/d/1_m5Ep1bzl7rDI5pOpzDJTmRoJebcAdCz/edit"
-    },
+    // {
+    //     title:'Viloyat BMSMlar direktorlar Kengashi ish rejasi',
+    //     url:'https://zarkentbmsm.uz/PDFlar/Direktorlar_kengashi_ish_rejasi.pdf'
+    // },
+    // {
+    //     title:"Mahorat Darsi",
+    //     url:"https://docs.google.com/document/d/1_m5Ep1bzl7rDI5pOpzDJTmRoJebcAdCz/edit"
+    // },
     // {
     //     title:"Faoliyat ko'rsatayotgan O'qtuvchilar",
     //     url:"https://docs.google.com/document/d/1jCF9Djpg8sKdA4SYTjH8eL4HxKvXTtLf/edit"

@@ -6,6 +6,7 @@ import {  AxloqQoidalar, BmsmUstavi, FarmonlarQarorlar, Guvohnoma, Home, Importa
 import OquvDasturi from './pages/Oquv-Dasturi'
 import Festival from './pages/Festival'
 import Galery from './pages/Galery'
+import DetailPage from './pages/DetailPage'
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
             <Route path='/malakaTavsifi' element={<MalakaTavsifi/>}/>  
             <Route path='/oquvDasturi' element={<OquvDasturi/>}/>
             <Route path='/festival' element={<Festival/>}/>
+            <Route path="/detail/:id" element={<DetailPage />} />
           </Routes> 
          <Footer/>
         </BrowserRouter>
