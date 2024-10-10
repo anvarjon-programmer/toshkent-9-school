@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo/logo2.png';
+import logo from '../assets/logo/8logi.jpg';
 import { useState } from 'react';
 import documents, { bmsLink, jarayonLink } from '../services/linkData';
 import { FaBars, FaTimes } from 'react-icons/fa';
@@ -26,7 +26,7 @@ const Header = () => {
            <p className='text-center  text-[#2e3192] font-semibold mt-4 text-[7px] md:text-xl'>Uchtepa tumani Taqachi mahallasi Ko'kcha darvoza ko'chasi 627 A uy.</p>
           </div>
           <div className='w-12 md:w-16 lg:w-20'>
-            <Link to={'/'}>
+            <Link to={'https://t.me/+pog-U-z4DX84MGVi'}>
               <div className='max-w-[60px]'>
                 <img className='hidden md:block w-full' src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Telegram_alternative_logo.svg/2048px-Telegram_alternative_logo.svg.png" alt="Telegram" />
               </div>
