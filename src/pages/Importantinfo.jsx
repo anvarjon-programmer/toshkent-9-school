@@ -20,7 +20,7 @@ const Importantinfo = () => {
         <li className='text-sm px-4 md:text-xl m-auto max-w-[1000px] pt-3'>
         Aloqa telefoni:
         <b>
-          <Link to='#'> (+998) 71-268-59-51</Link>
+          <Link to='#'> (+998) 71 247 26 75</Link>   |   <Link to='#'>  97 431 55 99</Link>
         </b>
             </li>
 

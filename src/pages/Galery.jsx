@@ -79,7 +79,7 @@ const fortopianoPageNumbers = [...Array(fortopianoPageCount).keys()];
       ))
     }
   </div>
-  <div className='pagination-container mt-6 md:mt-[20px] flex justify-center'>
+  <div className='pagination-container mt-6 md:mt-[20px] flex justify-center mb-7'>
     {fortopianoPageNumbers.map((number) => (
       <button
         key={number}

@@ -113,7 +113,7 @@ export const bms = [
     },
     {
         title:'Ta’lim muassasasi ma’muriyatining ish kuni tartibi:',
-        addition:'soat 9.00 dan 18.00 gacha, tushlik 13.00 dan 14.00 gacha'
+        addition:'soat 9.00 dan 17.00 gacha'
     },
     {
         title:'Ta’lim muassasasining ish kuni tartibi:',
@@ -125,16 +125,16 @@ export const bms = [
     },
     {
         title:'BMSM direktorining o‘quv-ma’rifiy ishlar bo‘yicha o‘rinbosari: ',
-        addition:'vakant'
+        addition:'Sevara Mirkamolovna'
     },
     {
         title:'BMSM direktorining xo‘jalik ishlari bo‘yicha o‘rinbosari: ',
         addition:'Usmanova Nadira Mirzaxmatovna'
     },
-    {
-        title:'',
-        addition:''
-    },
+    // {
+    //     title:'',
+    //     addition:''
+    // },
    
    
 ]

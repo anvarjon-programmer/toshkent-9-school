@@ -60,7 +60,7 @@ const Footer = () => {
         <Link to={'https://t.me//BMSM19'} className='text-xl'>
         <FaTelegram/>
         </Link>
-        <Link to={'https://www.instagram.com/'} className='text-xl'>
+        <Link to={'https://www.instagram.com/reel/DAyS5hKMVFH/?igsh=d2s0ZnR0cnh2ZjJv'} className='text-xl'>
         <IoLogoInstagram/>
         </Link>
         <Link to={''} className='text-xl'>

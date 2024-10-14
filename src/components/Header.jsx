@@ -23,7 +23,7 @@ const Header = () => {
           <h1 className='text-[10px] md:block max-w-[900px] text-center  lg:text-3xl text-[#2e3192] font-semibold'>
           Toshkent shahar Madaniyat Boshqarmasi tasarrufidagi 9-son Bolalar musiqa va san'at maktabi.
           </h1>
-           <p className='text-center  text-[#2e3192] font-semibold mt-4 text-[7px] md:text-xl'>Uchtepa tumani Taqachi mahallasi Ko'kcha darvoza ko'chasi 627 A uy.</p>
+           <p className='text-center  text-[#2e3192] font-semibold mt-4 text-[7px] md:text-xl'>Uchtepa tumani Taqachi mahallasi Ko'kcha darvoza ko'chasi 627  uy.</p>
           </div>
           <div className='w-12 md:w-16 lg:w-20'>
             <Link to={'https://t.me/+pog-U-z4DX84MGVi'}>
